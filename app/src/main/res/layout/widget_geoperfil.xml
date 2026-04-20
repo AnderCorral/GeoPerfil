@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panelWidget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#FFFFFFFF">
+
+    <TextView
+        android:id="@+id/tituloWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GeoPerfil"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/etiquetaNombreWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario: (sin usuario)"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/etiquetaCoordenadasWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lat: (sin datos) | Lon: (sin datos)"
+        android:textSize="13sp"
+        android:textColor="#000000"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/etiquetaHoraWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizado: (sin actualizar)"
+        android:textSize="13sp"
+        android:textColor="#000000"
+        android:layout_marginTop="6dp" />
+
+    <Button
+        android:id="@+id/botonAbrirMapaWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir mapa"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

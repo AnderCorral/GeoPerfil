@@ -1,0 +1,26 @@
+# Android / Gradle
+.gradle/
+local.properties
+.idea/
+.DS_Store
+/build
+/app/build
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Archivos de configuración sensibles
+secrets.properties
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.swp
